@@ -152,15 +152,16 @@ nav {
 }
 
 .app-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.8rem;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 
 .app-name {
