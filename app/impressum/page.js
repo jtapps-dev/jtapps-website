@@ -38,7 +38,8 @@ export default function ImpressumPage() {
 
             <div className="legal-section">
               <h2>{t.contact}</h2>
-              <p>E-Mail: <a href="mailto:kontakt@jtapps.dev">kontakt@jtapps.dev</a></p>
+              <p>E-Mail: <a href="mailto:contact@jtapps.dev">contact@jtapps.dev</a></p>
+              <p>Website: <a href="https://jtapps.dev" target="_blank" rel="noopener noreferrer">jtapps.dev</a></p>
             </div>
 
             <div className="legal-section">
