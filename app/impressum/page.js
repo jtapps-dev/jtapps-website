@@ -24,19 +24,7 @@ export default function ImpressumPage() {
             <h1>{t.title}</h1>
             <p className="legal-updated">{t.subtitle}</p>
 
-            <div className="legal-section">
-              <h2>{t.responsible}</h2>
-              <div className="info-box">
-                <p>
-                  [Dein Vor- und Nachname]<br />
-                  [Straße und Hausnummer]<br />
-                  [PLZ Ort]<br />
-                  Deutschland
-                </p>
-              </div>
-            </div>
-
-            <div className="legal-section">
+<div className="legal-section">
               <h2>{t.contact}</h2>
               <p>E-Mail: <a href="mailto:contact@jtapps.dev">contact@jtapps.dev</a></p>
               <p>Website: <a href="https://jtapps.dev" target="_blank" rel="noopener noreferrer">jtapps.dev</a></p>
