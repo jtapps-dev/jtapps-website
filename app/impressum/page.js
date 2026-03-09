@@ -26,6 +26,8 @@ export default function ImpressumPage() {
 
 <div className="legal-section">
               <h2>{t.contact}</h2>
+              <p>JT Apps</p>
+              <p>Erfweiler Straße 12<br />66994 Dahn<br />Deutschland</p>
               <p>E-Mail: <a href="mailto:contact@jtapps.dev">contact@jtapps.dev</a></p>
               <p>Website: <a href="https://jtapps.dev" target="_blank" rel="noopener noreferrer">jtapps.dev</a></p>
             </div>
