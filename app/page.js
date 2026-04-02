@@ -35,9 +35,9 @@ export default function HomePage() {
 
               <div className="app-card">
                 <div className="app-icon">
-                  <img src="/snapbite-icon.png" alt="SnapBite" style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'cover' }} />
+                  <img src="/snapbite-icon.png" alt="Snapbity" style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'cover' }} />
                 </div>
-                <div className="app-name">SnapBite</div>
+                <div className="app-name">Snapbity</div>
                 <div className="app-desc">{t.apps.snapbite.desc}</div>
                 <div className="app-badges">
                   {t.apps.snapbite.badges.map((b) => (
