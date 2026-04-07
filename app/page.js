@@ -3,8 +3,8 @@
 import { useLocale, getDict } from '../lib/i18n';
 
 export default function HomePage() {
-  const lang = useLocale();
-  const t = getDict(lang);
+  useLocale();
+  const t = getDict();
 
   return (
     <>
